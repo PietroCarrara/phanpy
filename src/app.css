@@ -54,7 +54,6 @@ a[href^='http'][rel*='nofollow']:visited:not(:has(div)) {
   overflow-x: hidden;
   transition: opacity 0.1s ease-in-out;
   overscroll-behavior: contain;
-  scroll-behavior: smooth;
   background-color: var(--bg-color);
   /* This `transform` fixes carousel blocking vertical scrolling for pointer devices on iPad */
   transform: translateZ(0);
@@ -782,7 +781,6 @@ a[href^='http'][rel*='nofollow']:visited:not(:has(div)) {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
   margin: 0;
   padding: 8px 16px;
   gap: 16px;
@@ -1026,7 +1024,6 @@ a[href^='http'][rel*='nofollow']:visited:not(:has(div)) {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  /* scroll-behavior: smooth; */
   scrollbar-width: none;
   overscroll-behavior: contain;
   touch-action: pan-x;
@@ -1948,8 +1945,6 @@ ul.link-list li a .icon {
   overflow-y: hidden;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  /* scrollbar-width: none; */
   overscroll-behavior: contain;
   overscroll-behavior-x: contain;
   /* This `transform` fixes horizontal scrolling for pointer devices on iPad */
