@@ -104,7 +104,7 @@ function Notifications({ columnMode }) {
   };
 
   function fetchAnnouncements() {
-    return masto.v1.announcements.list();
+    return Promise.resolve([]);
   }
 
   const loadNotifications = (firstLoad) => {
