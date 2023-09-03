@@ -245,7 +245,7 @@ function App() {
             ) : uiState === 'loading' ? (
               <Loader id="loader-root" />
             ) : (
-              <Welcome />
+              location.pathname === "/" && <Public local instance="stargate.pbcarrara.com.br" />
             )
           }
         />

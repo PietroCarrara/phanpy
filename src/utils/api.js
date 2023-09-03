@@ -9,7 +9,7 @@ import {
 } from './store-utils';
 
 // Default *fallback* instance
-const DEFAULT_INSTANCE = 'mastodon.social';
+const DEFAULT_INSTANCE = 'stargate.pbcarrara.com.br';
 
 // Per-instance masto instance
 // Useful when only one account is logged in
